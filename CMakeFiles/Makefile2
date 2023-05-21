@@ -215,11 +215,11 @@ CMakeFiles/plot.dir/clean:
 # Target rules for target CMakeFiles/planar_quadrotor.dir
 
 # All Build rule for target.
-CMakeFiles/planar_quadrotor.dir/all: SDL/CMakeFiles/SDL2main.dir/all
 CMakeFiles/planar_quadrotor.dir/all: matplotplusplus/source/matplot/CMakeFiles/matplot.dir/all
 CMakeFiles/planar_quadrotor.dir/all: matplotplusplus/source/3rd_party/CMakeFiles/nodesoup.dir/all
-CMakeFiles/planar_quadrotor.dir/all: SDL/CMakeFiles/SDL2.dir/all
+CMakeFiles/planar_quadrotor.dir/all: SDL/CMakeFiles/SDL2main.dir/all
 CMakeFiles/planar_quadrotor.dir/all: SDL2_gfx/CMakeFiles/SDL2_gfx.dir/all
+CMakeFiles/planar_quadrotor.dir/all: SDL/CMakeFiles/SDL2.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\planar_quadrotor.dir\build.make CMakeFiles/planar_quadrotor.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\planar_quadrotor.dir\build.make CMakeFiles/planar_quadrotor.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\kamil\Desktop\tp_projekt_3\build\CMakeFiles --progress-num=85 "Built target planar_quadrotor"
