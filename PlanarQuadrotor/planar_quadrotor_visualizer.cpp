@@ -51,15 +51,15 @@ void PlanarQuadrotorVisualizer::render(std::shared_ptr<SDL_Renderer> &gRenderer)
     drone_stick_2.h = s_h;
 
     SDL_Rect drone_propeler_1;
-    drone_propeler_1.x = f_x + d_w - 340 - s_w;
-    drone_propeler_1.y = drone_stick_2.y-s_w/5;
-    drone_propeler_1.w = s_w/5;
+    drone_propeler_1.x = f_x - 10;
+    drone_propeler_1.y = drone_stick_2.y-70;
+    drone_propeler_1.w = 120;
     drone_propeler_1.h = s_h/3;
 
     SDL_Rect drone_propeler_2;
-    drone_propeler_2.x = f_x + d_w - 340 - s_w;
-    drone_propeler_2.y = drone_stick_2.y-80;
-    drone_propeler_2.w = s_w/2;
+    drone_propeler_2.x = f_x +d_w-110;
+    drone_propeler_2.y = drone_stick_2.y-70;
+    drone_propeler_2.w = 120;
     drone_propeler_2.h = s_h/3;
 
     SDL_Texture* texture = SDL_CreateTexture(gRenderer.get(), SDL_PIXELFORMAT_RGBA8888,
